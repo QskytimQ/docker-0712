@@ -3,23 +3,23 @@
 ## Docker image 練習
 ### 登入Harbor
 ```
-docker login localhost:32443
+docker login 140.92.90.60:32443
 ```
 `帳號:user 密碼:User000!`
 
 ### Pull image
 ```
-docker pull localhost:32443/dockerhub/library/nginx:1.19
+docker pull 140.92.90.60:32443/dockerhub/library/nginx:1.19
 ```
 
 ### 修改image tag
 ```
-docker tag localhost:32443/dockerhub/library/nginx:1.19 localhost:32443/user/nginx:{IP第四碼}-{帳號末三碼}
+docker tag 140.92.90.60:32443/dockerhub/library/nginx:1.19 140.92.90.60:32443/user/nginx:{IP第四碼}-{帳號末三碼}
 ```
 
 ### Push image 至Harbor
 ```
-docker push localhost:32443/user/nginx:{IP第四碼}-{帳號末三碼}
+docker push l140.92.90.60:32443/user/nginx:{IP第四碼}-{帳號末三碼}
 ```
 ---
 
