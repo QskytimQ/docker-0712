@@ -91,5 +91,5 @@ docker run -itd -p 8001:80 --name asp-001 asp:001
 ```
 #### 檢查狀態
 ```
-docker ps –a | grep asp
+docker ps -a | grep asp
 ```
