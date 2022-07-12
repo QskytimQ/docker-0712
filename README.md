@@ -19,7 +19,7 @@ docker tag 140.92.90.60:32443/dockerhub/library/nginx:1.19 140.92.90.60:32443/us
 
 ### Push image 至Harbor
 ```
-docker push l140.92.90.60:32443/user/nginx:{IP第四碼}-{帳號末三碼}
+docker push 140.92.90.60:32443/user/nginx:{IP第四碼}-{帳號末三碼}
 ```
 ---
 
