@@ -71,7 +71,7 @@ docker build . --tag vuejs:001
 ```
 #### 運行
 ```
-docker run -itd -p 3001:80 --name vuejs-001 vuejs :001
+docker run -itd -p 3001:80 --name vuejs-001 vuejs:001
 ```
 #### 檢查狀態
 ```
