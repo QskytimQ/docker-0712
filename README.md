@@ -52,11 +52,11 @@ docker rm nginx-001
 #### 在docker file 這層，執行build
 ```
 cd dockerfile/flask
-docker build . --tag build/flask:001
+docker build . --tag flask:001
 ```
 #### 運行
 ```
-docker run -itd -p 5001:5000 --name flask-001 build/flask:001
+docker run -itd -p 5001:5000 --name flask-001 flask:001
 ```
 #### 檢查狀態
 ```
