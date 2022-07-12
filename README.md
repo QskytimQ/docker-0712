@@ -27,7 +27,7 @@ docker push 140.92.90.60:32443/user/nginx:{IP第四碼}-{帳號末三碼}
 
 ### 建立container
 ```
-docker run -itd -p 8081:80 -v $PWD/html:/usr/share/nginx/html/ --name nginx-001 localhost:32443/dockerhub/library/nginx:1.19
+docker run -itd -p 8081:80 -v $PWD/html:/usr/share/nginx/html/ --name nginx-001 140.92.90.60:32443/dockerhub/library/nginx:1.19
 ```
 `ex: user001 port:8081, name:nginx-001`
 
